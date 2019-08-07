@@ -3,9 +3,9 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">Click Memory Loss Away!!</span>
+    <footer className="footer mt-auto py-3">
+      <div className="container">
+        <span className="text-muted">Click Memory Loss Away!!</span>
       </div>
     </footer>
   );
