@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ClickMeOnceGame/static/css/main.b3991686.chunk.css",
+    "main.js": "/ClickMeOnceGame/static/js/main.64872014.chunk.js",
+    "main.js.map": "/ClickMeOnceGame/static/js/main.64872014.chunk.js.map",
+    "runtime~main.js": "/ClickMeOnceGame/static/js/runtime~main.eedeb242.js",
+    "runtime~main.js.map": "/ClickMeOnceGame/static/js/runtime~main.eedeb242.js.map",
+    "static/js/2.548e0644.chunk.js": "/ClickMeOnceGame/static/js/2.548e0644.chunk.js",
+    "static/js/2.548e0644.chunk.js.map": "/ClickMeOnceGame/static/js/2.548e0644.chunk.js.map",
+    "index.html": "/ClickMeOnceGame/index.html",
+    "precache-manifest.67657bfd637b92e11c43cce7dc184d4f.js": "/ClickMeOnceGame/precache-manifest.67657bfd637b92e11c43cce7dc184d4f.js",
+    "service-worker.js": "/ClickMeOnceGame/service-worker.js",
+    "static/css/main.b3991686.chunk.css.map": "/ClickMeOnceGame/static/css/main.b3991686.chunk.css.map",
+    "static/media/index.css": "/ClickMeOnceGame/static/media/night-sky.79271f16.jpg"
+  }
+}
