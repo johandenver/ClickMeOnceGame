@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ackbar",
+    "id": 1,
+    "image": "ackbar.png",
+    "clicked": false
+  },
+  {
+    "name": "boba",
+    "id": 2,
+    "image": "boba.png",
+    "clicked": false
+  },
+  {
+    "name": "c3po",
+    "id": 3,
+    "image": "c3po.png",
+    "clicked": false
+  },
+  {
+    "name": "chewy",
+    "id": 4,
+    "image": "chewy.png",
+    "clicked": false
+  },
+  {
+    "name": "emperor",
+    "id": 5,
+    "image": "emperor.png",
+    "clicked": false
+  },
+  {
+    "name": "greedo",
+    "id": 6,
+    "image": "greedo.png",
+    "clicked": false
+  },
+  {
+    "name": "han",
+    "id": 7,
+    "image": "han.png",
+    "clicked": false
+  },
+  {
+    "name": "jabba",
+    "id": 8,
+    "image": "jabba.png",
+    "clicked": false
+  },
+  {
+    "name": "r2d2",
+    "id": 9,
+    "image": "r2d2.png",
+    "clicked": false
+  },
+  {
+    "name": "storm",
+    "id": 10,
+    "image": "storm.png",
+    "clicked": false
+  },
+  {
+    "name": "tessek",
+    "id": 11,
+    "image": "tessek.png",
+    "clicked": false
+  },
+  {
+    "name": "vader",
+    "id": 12,
+    "image": "vader.png",
+    "clicked": false
+  }
+]

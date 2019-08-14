@@ -1,34 +1,49 @@
 import React from "react";
 import "./style.css";
+import ImageArray from "../Images";
 
-const Image = ({ props }) => (
-  <img alt={props} src={"../../../public/Images/" + props} />
-);
+// const image = ({ props }) => <img alt={props} src={"../Images/" + props} />;
 
-const AllImages = [
-  "ackbar.png",
-  "boba.png",
-  "c3po.png",
-  "chewy.png",
-  "Emperor.png",
-  "greedo.png",
-  "han.png",
-  "jabba.png",
-  "leia.png",
-  "luke.png",
-  "nien.png",
-  "r2d2.png",
-  "storm.png",
-  "tessek.png",
-  "vader.png"
-];
+class ImageCard extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      chars: sChars
+    };
+  }
 
-const ImageCard = props => {
-  return (
-    <div className="card" onClick={props.imageClick}>
-      <div className="img-container" />
-    </div>
-  );
-};
+  render() {
+    return (
+      <div className="row">
+        {this.state.chars.map((char, i) => (
+          <div
+            className="card"
+            key={char.id}
+            onClick={() => this.handleCharClick(char.id, i)}
+          >
+            <img
+              src={`./Images/${char.image}`}
+              alt={char.name}
+              className="char"
+            />
+          </div>
+        ))}
+      </div>
+    );
+  }
+}
+
+// first way i tried.
+//     const pictures = ImageArray.map((image, i) => {
+//       return (
+//         <div className="card">
+//           <div className="img-container">
+//             <img src={image} alt="" key={i} />
+//           </div>
+//         </div>
+//       );
+//     });
+//     return <div className="container characters">{pictures}</div>;
+//   }
 
 export default ImageCard;

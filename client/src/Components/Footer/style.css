@@ -5,7 +5,11 @@
 }
 
 .footer {
-  background-color: #f5f5f5;
+  background-image: linear-gradient(navy, purple);
   width: 100%;
-  position: relative;
+  text-align: center;
+}
+
+.footer-content {
+  color: white;
 }

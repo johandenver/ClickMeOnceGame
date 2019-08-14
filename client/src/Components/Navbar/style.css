@@ -1,3 +1,33 @@
 .navbar {
-  background: beige;
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-items {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+}
+
+.message {
+  color: orange;
+  font-size: 25px;
+}
+
+.score {
+  color: white;
+  font-size: 30px;
+}
+
+.high-score {
+  color: white;
+  font-size: 30px;
 }
